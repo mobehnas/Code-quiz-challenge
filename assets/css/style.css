@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+:root {
+    --primary-color: purple;
+    --secondary-color: black;
+    --tertiary-color: white;
+}
+  
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.style-indiv {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.wrapper{
+    display: grid;
+    justify-items: left; 
+    margin: 20px ;
+}
+.p-style {
+    font-size: 15px;
+    padding: 0px 50px ;
+    text-align: justify;
+}
+.span-1 {
+    height: 30px;
+}
+.p-style-1 {
+    font-size: 20px;
+    font: 2px;
+
+}
+  
+.style-2{
+    display: grid; 
+    grid-auto-rows: (10px, auto);
+    flex: wrap;
+    justify-content: left;
+    align-content:space-between;
+}
+
+  
+.style-3{
+      display: grid; 
+  
+      grid-auto-rows: (10px, auto);
+      flex: wrap;
+      justify-content: left;
+      align-content:space-between;
+}
+.span-1 {
+    height: 30px;
+}
+  
+div {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    Margin: 20px auto;
+    padding: 10px;
+}
+
+  
+.list {
+   justify-content: start;
+   display: grid;
+   justify-items: center; 
+   justify-items: start;
+}
+  
+.questions-ul {
+   list-style-type: none;
+   display: contents;
+}
+.questions-li {
+   width: 250px;
+}
+  
+.btn-style-main {
+   background-color: var(--primary-color);
+   color: var(--tertiary-color);
+   border-radius: 10px;
+   width: 225px;
+   border: 1px solid black;
+   font-size: 20px;
+   padding: 8px;
+   margin: 4px;
+   outline: none;
+}
+  
+.btn-style-main:active {
+    background-color: var(--secondary-color);
+   
+}
+.answer-btn {
+
+    color: white;
+    width: 225px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 8px;
+    outline: none;
+    text-align: start;
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: var(--primary-color)
+}
+  
+.style-indiv {
+   display: flex;
+   justify-content: center;
+  
+}
+.style-3 {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    max-width: 75%;
+    padding-left: 75px;
+}
+  
+.score-list {
+    Padding-left: 35px;
+}
+  
+#questions{
+    display: none;
+}
+
+#final-score{
+   display: none;
+
+}
+
+#high-scores{
+  display: none;
+  text-align: left;
+}
+
+
+  
+ 
+  
+ 
